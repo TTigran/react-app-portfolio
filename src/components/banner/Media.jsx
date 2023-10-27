@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaLinkedinIn, FaReact,FaNodeJs } from "react-icons/fa";
-import { SiMongodb,SiExpress,SiGithub,SiGmail } from "react-icons/si";
+import {FaLinkedinIn, FaFacebook, FaTelegram} from "react-icons/fa";
+import { SiGithub,SiGmail } from "react-icons/si";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -10,35 +10,24 @@ const Media = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-            <a href="https://github.com/mihirc0111" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/TTigran" target="_blank" rel="noopener noreferrer">
               <SiGithub /></a>
             </span>
             <span className="bannerIcon">
-            <a href="mailto:mihirc0111@gmail.com">
+            <a href="martirosyantigran.developer@gmail.com">
               <SiGmail /></a>
             </span>
             <span className="bannerIcon">
-            <a href="https://www.linkedin.com/in/mihir-chavan-643615234/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/tigranmartirosyan/" target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn /></a>
             </span>
-          </div>
-        </div>
-        <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
-            BEST WEB STACK
-          </h2>
-          <div className="flex gap-4">
             <span className="bannerIcon">
-              <SiMongodb />
+            <a href="https://www.facebook.com/profile.php?id=100008227205459" target="_blank" rel="noopener noreferrer">
+              <FaFacebook /></a>
             </span>
             <span className="bannerIcon">
-              <SiExpress />
-            </span>
-            <span className="bannerIcon">
-              <FaReact />
-            </span>
-            <span className="bannerIcon">
-              <FaNodeJs />
+            <a href="https://t.me/full_stack_developer_js" target="_blank" rel="noopener noreferrer">
+              <FaTelegram /></a>
             </span>
           </div>
         </div>

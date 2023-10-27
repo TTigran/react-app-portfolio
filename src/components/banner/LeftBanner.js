@@ -1,19 +1,27 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from './Media';
 
-const LeftBanner = () => {
+const LeftBanner = ({count}) => {
+    const [viewersCount, setViewersCount] = useState(0);
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "Full Stack Developer.", "Data Scientist.","Wildlife Enthusiast Capturing Wonders Through My Lens 📸"],
+      words: ["Professional Coder.", "Full Stack Developer.", "Motivated Programmer.", "Good Trainer.", "Experienced engineer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
       delaySpeed: 2000,
     });
-  return (
+
+
+    useEffect(() => {
+        setViewersCount((prevCount) => prevCount + 1);
+    }, []);
+
+
+    return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">Hola Amingos 👀🙋‍♂️  </h4>
+        <h4 className=" text-lg font-normal">Hola Amingos 👀🙋‍♂️ --> Views: <b>{count}</b> </h4>
         <h1 className="text-6xl font-bold text-white">
           Hi, I'm <span className="text-designColor capitalize">Tigran Martirosyan</span>
         </h1>

@@ -1,0 +1,51 @@
+/* VideoPlayer.css */
+
+/* Container for the video player */
+.video-container {
+    margin-left: 12px;
+    width: 300px;
+    height: auto;
+    text-align: start;
+    /*background-color: brown;*/
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the video title */
+.video-title {
+    color: red;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+/* Style for the video player */
+.video-player {
+    max-width: 100%;
+}
+
+.root-video{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+    .root-video{
+        display: block;
+    }
+    .video-container {
+        margin-left: 12px;
+        width: 93%;
+        height: auto;
+        text-align: start;
+        /*background-color: brown;*/
+        padding: 8px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .video-title {
+        color: red;
+        font-size: 10px;
+        margin: 10px 0;
+    }
+}

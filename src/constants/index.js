@@ -21,12 +21,23 @@ export const navLinksdata = [
   },
   {
     _id: 1005,
-    title: "Testimonial",
-    link: "testimonial",
+    title: "About",
+    link: "about",
   },
   {
     _id: 1006,
+    title: "Media",
+    link: "media",
+  },
+
+  {
+    _id: 1007,
     title: "Contact",
     link: "contact",
+  },
+  {
+    _id: 1008,
+    title: "Signin",
+    link: "signin",
   },
 ];

@@ -10,15 +10,15 @@ const Footer = () => {
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <a href="https://github.com/mihirc0111" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/TTigran" target="_blank" rel="noopener noreferrer">
               <SiGithub /></a>
           </span>
           <span className="bannerIcon">
-          <a href="mailto:mihirc0111@gmail.com">
+          <a href="martirosyantigran.developer@gmail.com">
             <SiGmail /></a>
           </span>
           <span className="bannerIcon">
-          <a href="https://www.linkedin.com/in/mihir-chavan-643615234/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/tigranmartirosyan/" target="_blank" rel="noopener noreferrer">
             <FaLinkedinIn /></a>
           </span>
         </div>
